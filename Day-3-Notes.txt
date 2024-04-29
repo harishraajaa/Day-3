@@ -1,0 +1,106 @@
+Day-3:
+
+
+Arrays
+
+array=[10,20,30]
+
+How to loop arrays?
+
+1. for loop
+// for(let i=0;i<array.length;i++)
+// {
+//     console.log(array[i])
+// }
+
+
+2. for in //i will hold index
+
+
+// for (let i in array)
+// {
+//     console.log(i)
+	 console.log(array[i])
+// }
+
+3. for for //<<i will hold array value>>
+
+for (let i for array){
+
+	console.log(i)
+}
+
+
+4. foreach //<<Its a array function.>>
+
+array.foreach((x,y)=>{
+console.log(x,y)
+})
+
+
+
+Object has for in loop to iterate
+
+array has for,foreach,for in, for of to iterate
+
+
+----------------------------------------------------------------------------------
+
+Types of Function
+
+1. Normal function
+
+function Sumfunc(a,b)
+{
+	return (a+b)
+}
+
+2. Arrow function 
+
+let sumfunc=(a,b)=>{return a+b }
+
+3. IIFE
+
+
+----------------------------------------------------------------------------
+
+//IIFE - Immdieately Invoked Function Expression
+
+
+------------------------------------------------
+
+Based on Naming type of functions are Named and Anonymous function
+
+-------------------------------------------------------------------
+
+
+Hoisting -> Hoist will happen in Var
+
+
+if we declare a variable using var it will go to top of the scope even before assigning.
+
+Scoping
+Will work only inside the block of code.
+
+
+Var is Global scope
+let is local scope
+const is also a local scope
+
+
+// var
+// 1. Variables will be hoisted
+// 2. Global Scope Variable
+// 3. Re-Declaration is allowed
+// 4. Re-Assignment is allowed
+
+//let
+//1. Prevents Hoisting
+//2. Local Scope Variable
+//3. Re-Declaration not possible
+//4. Re-Assignment is possible
+
+Const
+ 1. Same as let
+2. Re-Assignment, Redeclaration is not possible
+
