@@ -1,4 +1,4 @@
-console.log("Day-3 Task-2 : Using Arroy functions")
+console.log("Day-3 Task-2 : Using Arrow functions")
 console.log("------------------------------------")
 console.log("1. Print odd numbers in an array")
 let arrayodd = [8,7,5,3,4,2,6,10]
