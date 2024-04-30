@@ -102,5 +102,5 @@ const is also a local scope
 
 Const
  1. Same as let
-2. Re-Assignment, Redeclaration is not possible
+2. Re-Assignment, Redeclaration	 is not possible
 
